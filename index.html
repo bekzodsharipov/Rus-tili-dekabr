@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rus tili</title>
+    <style>
+        * {margin: 0;padding: 0;box-sizing: border-box;}html, body {overflow-x: hidden;}body {background: linear-gradient(0deg, var(--color-white-solid, #FFFFFF), var(--color-white-solid, #FFFFFF)), linear-gradient(0deg, var(--color-grey-98, #F9F5FF), var(--color-grey-98, #F9F5FF));}.container {max-width: 431px;width: 100%;margin: 0 auto;padding: 23px 10px;padding-top: 0;display: flex;flex-direction: column;align-items: center;font-family: sans-serif;}.header {width: 100%;background-color: #fff;box-shadow: 0px 4px 8px 0px #00000014;border-radius: 0 0 24px 24px;padding: 10px 40px;display: flex;align-items: center;justify-content: space-between;gap: 12px;margin-bottom: 18px;min-width: 313px;}.header__box {display: flex;align-items: center;gap: 8px;}.header__text {display: flex;align-items: center;font-family: Poppins, sans-serif;color: #000;font-weight: 600;font-size: 17px;line-height: 18px;text-wrap: nowrap;}.header__time {font-family: Poppins, sans-serif;font-weight: 700;font-size: 23.44px;line-height: 36px;text-align: center;color: #E51E31;}.title {font-family: Kuunari, sans-serif;font-weight: 900;font-size: clamp(30px, 9.9vw, 40px);line-height: 120%;text-align: center;text-transform: uppercase;color: #000000;margin-bottom: 13px;max-width: 353px;width: 100%;}.title span {color: #E51E31;}.text {font-family: Poppins, sans-serif;font-weight: 400;font-size: 16px;line-height: 130%;text-align: center;}.center {position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}.shadoow {background-color: #E51E31CC;width: 198px;height: 46px;filter: blur(56px);position: absolute;z-index: 0;top: 300px;}.center__bg {position: absolute;left: 50%;bottom: -51px;transform: translate(-55.4%);z-index: -1;}.expert__img {object-fit: contain;max-width: 293px;width: 100%;position: relative;z-index: 20;height: auto;margin-bottom: -1px;}.event__btn {cursor: pointer;max-width: 338px;width: 100%;display: flex;align-items: center;justify-content: center;border: none;background-color: transparent;position: relative;background-color: #E51E31;box-shadow: 0px 5px 0px 0px #AA1624;border-radius: 20px;padding: 25px 20px 22px 20px;z-index: 20;font-family: Poppins, sans-serif;color: white;font-weight: 700;font-size: 20px;line-height: 23px;text-align: center;text-transform: uppercase;}.event__btn__img {width: 100%;height: auto;}.event__list__title {font-family: Poppins, sans-serif;font-weight: 700;font-size: 22px;line-height: 20px;text-align: center;text-transform: uppercase;color: #2A2A2A;margin-top: 10px;margin-bottom: 14px;}.event__list {max-width: 351px;display: grid;grid-template: 1fr;gap: 18px;list-style: none;margin-bottom: 24px;}.event__list__item {display: flex;align-items: center;gap: 12px;overflow: hidden;}.event__list__item__number {display: flex;align-items: center;justify-content: center;flex-shrink: 0;}.event__list__item__text {font-weight: 600;font-family: Poppins, sans-serif;font-size: clamp(12px, 4vw, 14px);line-height: 140%;}.event__list__item__text span {color: #3477FF;}.timer__box {font-family: Poppins , sans-serif;font-weight: 600;font-size: 32px;line-height: 20px;text-transform: uppercase;padding-top: 33px;}@media (max-width:450px) {.event__btn {padding: 25px 15px;font-size: 18.5px;}.header {padding: 10px 20px;}}
+    </style>
+    <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/modal.css" />
+    </noscript>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="header__box">
+                    <img src="./images/calendar.png" alt="kalendar belgisi" style="margin-top: -3px;"
+                        class="header__text__img" width="24" height="24" loading="lazy" decoding="async">
+                    <p class="header__text">
+                        9-10-11-Dekabr
+                    </p>
+                </div>
+
+                <p class="header__time">20:00</p>
+            </div>
+            <h1 class="title">
+                Rus tilida sizni <br>
+                <span>3 kunda gapirtiraman</span>
+            </h1>
+            <img src="./images/speaker.avif" alt="Invertor rasmi" class="expert__img minifyImg" decoding="async"
+                loading="lazy" width="293" height="278">
+
+            <button class="event__btn registerBtn">
+                >>> Bepul Qatnashish <<< </button>
+                    <div class="shadoow"></div>
+
+                    <div class="timer__box" id="timer">02:00</div>
+        </div>
+        <div class="container">
+            <h2 class="event__list__title">Bepul darsda siz:</h2>
+            <ul class="event__list">
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/language.avif" alt="event language" width="32" height="32" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        <span>Noldan 3 kunda</span> gaplasha olishni
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/language.avif" alt="event language" width="32" height="32" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        Rus tili grammatikasi va <span>erkin <br> muloqot qilish</span> sirlarini
+                    </p>
+                </li>
+                <li class="event__list__item">
+                    <div class="event__list__item__number">
+                        <img src="./images/language.avif" alt="event language" width="32" height="32" decoding="async"
+                            loading="lazy">
+                    </div>
+                    <p class="event__list__item__text">
+                        <span>So’z yodlamasdan</span> qisqa vaqtda <br> natijaga chiqishni bilib olasiz
+                    </p>
+                </li>
+            </ul>
+            <button class="event__btn registerBtn" style="margin-bottom: 10px;">
+                >>> Bepul Qatnashish <<< </button>
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul darsga <br />
+                    RO'YXATDAN O'TISH
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+                    <div class="phone-input-container">
+                        <div class="country-selector">
+                            <div class="selected-country" id="selectedCountry">
+                                <span id="selectedCountryCode">+998</span>
+                                <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                            <div class="country-dropdown" id="countryDropdown" style="display: none"></div>
+                        </div>
+                        <input class="HomeFormRowInput" type="tel" id="phone" name="phone" placeholder="88 888 88 88"
+                            autocomplete="tel" />
+                    </div>
+                    <p class="homeFormErrorText" id="phoneError" style="display: none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    ro’yxatdan o’tish </button>
+            </form>
+        </div>
+    </div>
+
+    <script defer src="./js/app.js"></script>
+</body>
+
+</html>
